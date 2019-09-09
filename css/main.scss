@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+body,html{
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    font-size: 1.1rem;
+
+    ul{
+    list-style: none;
+
+        a{
+            text-decoration: none;
+            color: #fff;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+    }
+
+    h4 a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.logo{
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+}
+footer{
+    background: #000;
+    color: #fff;
+    padding-bottom: 2px;
+
+    .copy{
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    }
+}
+nav ul a:hover{
+    color: #000;
+    background: #fff;
+    padding: 10px
+}
+h1{
+    font-size: 3rem;
+}
+.container{
+    text-align: center;
+    padding-bottom: 80px;
+
+    .kont{
+        margin-left: 400px;
+    }
+}
+.center{
+    text-align: center;
+}
+#price {
+  text-align: center;
+}
+.plan {
+  display: inline-block;
+  margin: 10px 1%;
+  font-family: 'Lato', Arial, sans-serif;
+}
+.plan:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+.plan-inner {
+  background: #fff;
+  margin: 0 auto;
+  min-width: 280px;
+  max-width: 100%;
+  position:relative;
+}
+.entry-title {
+  background: rgb(0, 0, 0);
+  height: 140px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.entry-title>h3 {
+  background: rgb(0, 167, 50);
+  font-size: 20px;
+  padding: 5px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+.entry-title .price {
+  position: absolute;
+  bottom: -25px;
+  background: rgb(0, 167, 50);
+  height: 95px;
+  width: 95px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  line-height: 80px;
+  font-size: 28px;
+  font-weight: 700;
+}
+.price span {
+  position: absolute;
+  font-size: 9px;
+  bottom: -10px;
+  left: 30px;
+  font-weight: 400;
+}
+.entry-content {
+  color: #323232;
+  background: #fff;
+}
+
+.entry-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.entry-content li {
+  border-bottom: 1px solid #E5E5E5;
+  padding: 10px 0;
+}
+
+.entry-content li:last-child {
+  border: none;
+}
+label {
+    display:block;
+    margin-bottom: .5rem;
+}
+.kontakt{
+    font-size: 1.25rem;
+}
+input, textarea{
+    width: 60%;
+    height: 3vh;
+    margin-bottom: 1rem;
+}
+textarea{
+    height: 6vh;
+}
+button{
+    width: 100px;
+    height: 4vh;
+    background: #fff;
+    font-size: 1rem;
+}
+.info{
+    margin-left:auto;
+    margin-right: auto;
+    width: 500px;
+    height: 30vh;
+    background: #000;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.info h3{
+    padding-left: 20px;
+}
+form{
+    margin-bottom: 20px;
+}
+.aboutme{
+    p{
+        text-align: center;
+    }
+}
+.banner{
+    img{
+        width: 100%;
+        height: 70vh;
+    }
+}
+span{
+    color: #fff;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    cursor: pointer;
+}
+.pd{
+    color: #fff;
+    font-size:2em;
+    text-transform:uppercase;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sec1 h3{
+    font-size: 2rem;
+}
+span a{
+    text-decoration: none;
+    color: #fff;
+}
+.coijak{
+    border-left: solid 15px blue;
+    animation-name: example;
+    animation-duration: 4s;
+    h3{
+        font-size: 4rem;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+}
+@keyframes example{
+    from{
+        top: 1000px;
+    }
+    to{
+        top:0px;
+    }
+}
